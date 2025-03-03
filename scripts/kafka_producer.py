@@ -12,7 +12,7 @@ logging.basicConfig(
 # Configuration
 KAFKA_BROKER = 'host.docker.internal:9092'
 KAFKA_TOPIC = 'fraud-detection'
-CSV_FILE_PATH = r'C:\Users\LOQ\Desktop\data_engineering\online_transactions_fraud_detection\data\onlinefraud.csv'
+CSV_FILE_PATH = r'C:\Users\LOQ\Desktop\data_engineering\online_transactions_fraud_detection\data\fraudTest.csv'
 
 config = {
     'bootstrap.servers': KAFKA_BROKER,
@@ -47,7 +47,7 @@ def send_data_to_kafka(csv_file_path, batch_size=1000):
     try:
         with open(csv_file_path, 'r') as file:
             csv_reader = csv.reader(file)
-            next(csv_reader)  # Skip header
+            next(csv_reader) 
             
             for row in csv_reader:
                 message = ','.join(row)
