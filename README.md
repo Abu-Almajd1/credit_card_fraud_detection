@@ -53,8 +53,6 @@ This project simulates a high-volume **credit card transaction system** that det
 
 ---
 
-## 📂 Project Structure
-
 
 
 
