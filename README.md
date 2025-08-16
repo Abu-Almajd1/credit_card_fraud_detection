@@ -2,7 +2,7 @@
 
 A robust real-time ETL pipeline to detect fraudulent credit card transactions using **Apache Kafka**, **Apache Spark**, **PostgreSQL**, and **Power BI**. Designed to ingest and process thousands of records per minute, this project enables real-time fraud flagging and dashboard analytics.
 
-![Real-Time Fraud Detection Pipeline](ETL-Page-1.drawio.jpeg)
+![Real-Time Fraud Detection Pipeline](ETL-Page-1.drawio.png)
 
 ---
 
